@@ -13,3 +13,69 @@
     --border-color-two: #9C83BE;
     --border-color-three: #ff0000;
 }
+
+body{
+    background: linear-gradient(to right, #ffffff, #BFABD0, #9C83BE);
+    
+   
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    min-height: 100vh; 
+    text-align: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo{
+    
+    display: flex;
+}
+
+.containerLogo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #7E479B;
+    font-weight: bold;
+}
+
+  
+
+
+.form input, .form select {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-bottom: 2px solid #5E4675;
+    background-color: transparent;
+    color: #5E4675;
+    outline: none;
+    
+}
+
+.form input::placeholder {
+    color: #B3A1C6; 
+
+}
+
+button{
+    background-color: #9370DB;
+    border-radius: 7px;
+    width: 50%;
+    height: 50%;
+}
